@@ -1,4 +1,4 @@
-from sample import adder, sample
+from src import adder, sample
 
 
 def test_fib() -> None:
