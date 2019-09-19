@@ -1,4 +1,4 @@
-from sample import sample
+from sample import adder, sample
 
 
 def test_fib() -> None:
@@ -9,3 +9,8 @@ def test_fib() -> None:
     assert sample.fib(4) == 3
     assert sample.fib(5) == 5
     assert sample.fib(10) == 55
+
+
+def test_adder() -> None:
+    assert adder.add_one(0) == 1
+    assert adder.add_one(1) == 2
